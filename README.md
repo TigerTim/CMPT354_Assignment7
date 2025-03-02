@@ -22,7 +22,15 @@ pip install pymssql pyodbc
 ```
 ### 3. Configure the database connection by updating the credentials
 ```sh
-
+conn = pyodbc.connect(
+        'DRIVER={ODBC Driver 18 for SQL Server};'
+        'SERVER=cypress.csil.sfu.ca;'
+        'DATABASE=gpd354;'
+        'UID=s_gpd;'
+        'PWD=Mr43Fdrnahnjye74;'
+        'Encrypt=yes;'
+        'TrustServerCertificate=yes;'
+    )
 ```
 ### 4. Run the application
 ```sh
