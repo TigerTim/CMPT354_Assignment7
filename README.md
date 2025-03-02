@@ -12,27 +12,22 @@ DataManager is a Python-based application enabling users to interact with variou
 
 ## Installation
 ### Setup Steps
-Ensure you have Python installed along with the following dependencies:
+### 1. Clone the repository
+```sh
+git clone https://github.com/TigerTim/DataManager.git
+```
+### 2. Install required Python dependencies
 ```sh
 pip install pymssql pyodbc
 ```
-
-### Running the Application
+### 3. Configure the database connection by updating the credentials
 ```sh
-python bmp_viewer.py
+
 ```
-
-## Usage
-1. Launch the application.
-2. Open a BMP image using the file menu.
-3. Apply various image processing effects from the menu options.
-4. Use sliders to fine-tune effects like Unsharp Masking.
-5. Save the processed image if needed.
-
-## Controls
-- **Menu Options:** Access various image effects and enhancements.
-- **Sliders:** Adjust parameters like amount, radius, and threshold for Unsharp Masking.
-- **Apply Button:** Apply real-time changes from the sliders.
+### 4. Run the application
+```sh
+python main.py
+```
 
 ## Contributing
 Feel free to fork and contribute improvements. Submit a pull request with detailed explanations of your changes.
