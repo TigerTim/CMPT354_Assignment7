@@ -18,7 +18,7 @@ git clone https://github.com/TigerTim/DataManager.git
 ```
 ### 2. Install required Python dependencies
 ```sh
-pip install pymssql pyodbc
+pip install pyodbc
 ```
 ### 3. Configure the database connection by updating the credentials
 ```sh
